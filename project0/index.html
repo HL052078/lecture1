@@ -1,10 +1,71 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Webpage</title>
-    </head>
+        <title>All about Hanah</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+		}
+		.center-p{
+		text-align: center
+        }
+		.column {
+        float: left;
+        width: 23.33%;
+        padding: 5px;
+        }
+		.row::after {
+       content: "";
+       clear: both;
+       display: table;
+       }
+		
+    </style>
+	</head>
     <body>
-        Hello, world!
-		Here is a new feature!
+        <div class="imgbox">
+		<img class="center-fit" src="C:\Users\hanlewi\Documents\GitHub\lecture1\project0\header.png" alt="My header" >
+		</div>
+		<br />
+		<br />
+		<br />
+		<p class="center-p" style="font-size: 100px;"> <span style="color: #fc7703">About</span> Me</p>
+		 <br />
+		 <p class="center-p" style="font-size: 30px;"> I am a It Manager Oklahoma State University in the Computer Science Department, I am a mother of two amazing kids, and a student at Oklahoma State Univesity.
+		 I am looking forward to completing my bachelor's in Management and Infomation Systems, and hope to go on to get my MBA.</p>
+		 <br />
+		<div class="row" style="text-align:center;">
+         <div class="column">
+		 <img src="download.png" style="width:100px;">
+		 <br />
+		 <a href="hello.html">Mom!</a>
+		 </div>
+		 <div class="column">
+		 <img src="it_manager.jpg" style="width:100px;">
+		 <br />
+		 <a href="job.html">My Job!</a>
+		 </div>
+		 <div class="column">
+		<img src="college.png" style="width:75px;">
+		<br />
+		 <a href="student.html">Student Life!</a>
+		 </div>
+		 <div class="column">
+		 <img src="puzzle.jpg" style="width:100px;">
+		 <br />
+		 <a href="student.html">My Interest!</a>
+		 </div>
+		 </div>
+		 
     </body>
 </html>
