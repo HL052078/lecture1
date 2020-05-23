@@ -1,0 +1,35 @@
+div {
+    font-size: 18px;
+
+    p {
+        color: orange;
+    }
+
+    ul {
+        color: green;
+    }
+}
+
+%message {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.job1 {
+    @extend %message;
+    background-color: orange;
+}
+
+.job2 {
+    @extend %message;
+    background-color: white;
+}
+
+.job3 {
+    @extend %message;
+    background-color: red;
+}

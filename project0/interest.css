@@ -1,0 +1,42 @@
+.column {
+        float: left;
+        width: 23.33%;
+        padding: 5px;
+        }
+		.row::after {
+       content: "";
+       clear: both;
+       display: table;
+       }
+	  
+	  
+	a:hover {
+         color: orange;
+	}
+
+#puzzle, #swim{
+     font-size: 30px;
+     color: orange;
+}
+
+div > p {
+  background-color: orange;
+}
+
+a[target] {
+  background-color: orange;
+}
+
+@media only screen and (min-width: 500px) {
+                h1::before {
+                    content: "My interest and hobbies";
+                }
+            }
+
+            @media only screen and (max-width: 499px) {
+                h1::before {
+                    content: "My Interest!";
+                }
+            }
+	 
+	  

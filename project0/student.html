@@ -2,8 +2,68 @@
 <html>
     <head>
         <title>Being a Student!</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+			
+		<style>
+		
+		.column {
+        float: left;
+        width: 23.33%;
+        padding: 5px;
+        }
+		.row::after {
+       content: "";
+       clear: both;
+       display: table;
+       }
+	   .row > div {
+                padding: 20px;
+                background-color: #fc7703;
+                border: 2px solid black;
+            }
+		
+    </style>
     </head>
     <body>
-        Test page for student info
+        <p class="center-p" style="font-size: 100px; color: #fc7703; text-align: center;">My life as a student!</p>
+		
+		<p style="font-size: 20px;">I am a year shy of completing my bachelor's in Management and Infomation Systems. After nearly 12 years in school,
+		it will be finally complete. Upon completion, I will transfer to MSU in Wichita Falls, TX and get my Masters in Business Management. </p>
+		
+		
+		
+		<p style="font-size: 25px;">You can find out more about me at the following links:
+		<br />
+		
+		
+		<div class="row" style="text-align:center;">
+         <div class="column">
+		 <img src="download.png" style="width:100px;">
+		 <br />
+		 <a href="hello.html">Mom!</a>
+		 </div>
+		 <div class="column">
+		 <img src="it_manager.jpg" style="width:100px;">
+		 <br />
+		 <a href="job.html">My Job!</a>
+		 </div>
+		 <div class="column">
+		<img src="college.png" style="width:75px;">
+		<br />
+		 <a href="student.html">Student Life!</a>
+		 </div>
+		 <div class="column">
+		 <img src="puzzle.jpg" style="width:100px;">
+		 <br />
+		 <a href="interest.html">My Interest!</a>
+		 </div>
+		 </div>
+		
+		 
+		<br />
+		<div class="alert alert-warning" role="alert">
+		To go back to the home page go here: 
+		 <a href="index.html">Click here!</a> </p>
+		 </div>
     </body>
 </html>

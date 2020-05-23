@@ -2,14 +2,76 @@
 <html>
     <head>
         <title>Being a mom!</title>
+		
+		<style>
+		ul.a {
+  list-style-type: circle;
+  font-size: 25px;
+}
+		.column {
+        float: left;
+        width: 23.33%;
+        padding: 5px;
+        }
+		.row::after {
+       content: "";
+       clear: both;
+       display: table;
+       }
+	  
+	  p {
+	  margin-left: 2 rem;
+	  }
+	  
+	  ul {
+	  margin-left: 5 rem;
+	  }
+		
+    </style>
     </head>
     <body>
-        Hello, world! My name is Hanah Lewis. I am a full-time mother of two, and work as a IT
-		Manager at Oklahoma State Univeristy. 
+     <p class="center-p" style="font-size: 100px; color: #fc7703; text-align: center;"> What is being a mom like?</p>
 		
-		You can find out more about me at the following links:
+		<p style="font-size: 25px;">Motherhood is like running a race while one arm is tied behind your back. </p>
 		
-		To go back to the home page go here:
-		 <a href="index.html">Click here!</a>
+		<p style="font-size: 25px;">At different times I wear different hats. Which can include:</p>
+		
+		<ul class="a">
+		<li> Nurse </li>
+		<li> Therapist </li>
+		<li> Friend </li>
+		<li> Boss </li>
+		<li> Negotiator </li>
+		<li> Chef </li>
+		<li> Maid </li>
+		
+		
+		<p style="font-size: 25px;">You can find out more about me at the following links:
+		<br />
+		<div class="row" style="text-align:center;">
+         <div class="column">
+		 <img src="download.png" style="width:100px;">
+		 <br />
+		 <a href="hello.html">Mom!</a>
+		 </div>
+		 <div class="column">
+		 <img src="it_manager.jpg" style="width:100px;">
+		 <br />
+		 <a href="job.html">My Job!</a>
+		 </div>
+		 <div class="column">
+		<img src="college.png" style="width:75px;">
+		<br />
+		 <a href="student.html">Student Life!</a>
+		 </div>
+		 <div class="column">
+		 <img src="puzzle.jpg" style="width:100px;">
+		 <br />
+		 <a href="interest.html">My Interest!</a>
+		 </div>
+		 </div>
+		<br />
+		To go back to the home page go here: 
+		 <a href="index.html">Click here!</a> </p>
     </body>
 </html>
